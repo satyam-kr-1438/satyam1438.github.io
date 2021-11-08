@@ -1,0 +1,202 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+                                                                                           /* SECTION1  */
+.about_section1{
+   margin: 30px 0 50px 0;
+}
+.about_section1_content
+{
+    margin: 50px 0 0 0 !important;
+
+}
+.about_section1_img,.about_section1_content
+{
+    width:100%;
+    padding: 10px 40px;
+}
+.about_section1_img img{
+    width: 100%;
+}
+.about_section1_content h3{
+    font-size: 16px;
+    color:#00a3c8;
+}
+.about_section1_content h2{
+    color:#004861;
+    font-size: 35px;
+    margin:30px 0;
+}
+.about_section1_content p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.541);
+}
+.about_section1_content .about_signature
+{
+    width: 200px;
+    height: auto;
+}
+.about_section1_content .about_signature img{
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+
+
+                                                                                /* SECTION2  */
+.about_section2_content ul li{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.541);
+    list-style: none;
+}
+.about_section2_content ul li span{
+    color:#00a3c8;
+    font-weight: 700;
+}
+
+
+
+                                                                               /* CARD AND TIMING SECTION START  */
+    .ABOUT_CARD_SECTION
+    {
+        margin: 50px 0;
+        background-color: rgba(128, 128, 128, 0.164);
+        padding: 30px 0;
+    }
+    .about_card{
+        margin: 60px 0;
+    }
+    .about_card_part1{
+        padding: 0 10px;
+    }
+    .about_card .card_part1{
+        padding:10px 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+        margin: 60px 0;
+        background-color: white !important;
+
+    }
+    .about_card .card_part1:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    }
+    .card_part1 a{
+        display:flex;
+        text-decoration: none;
+    }
+    .card_part1 a .CARD_ICON i{
+         font-size: 60px;
+         color: #00a3c8;
+    }
+    .card_part1 a .CARD_CONTENT{
+        margin-left:30px;
+    }
+    .card_part1 a .CARD_CONTENT h3{
+         color:#004861;
+         font-size: 24px;
+    }
+    .card_part1 a .CARD_CONTENT p{
+        color: rgba(0, 0, 0, 0.63);
+        font-size: 18px;
+    }
+    .timing .day
+    {
+         font-size: 16px !important;
+    }
+    .timing .day b{
+        font-size: 13px !important;
+        margin-left:50px !important;
+    }
+
+
+
+
+
+
+
+
+                                                                           /* VIDEO SECTION  */
+.about_video_section{
+    margin: 70px 0;
+}
+.about_video_container
+{
+    padding: 20px 30px;
+}
+.about_video_container .about_image
+{
+    width: 100%;
+    height: auto;
+    position:relative;
+}
+.about_image img{
+    width: 100%;
+    height: auto;
+}
+.about_image p a{
+    text-decoration: none;
+    font-size: 70px;
+     color:#00a3c8;
+}
+
+.about_image p
+{
+   position: absolute;
+   top:170px;
+   left: 280px;   
+}
+@media only screen and (max-width: 768px)
+{
+    .about_image p
+{
+   position: absolute;
+   top:100px;
+   left: 180px;   
+}
+}
+@media only screen and (max-width: 480px)
+{
+    .about_image p
+{
+   position: absolute;
+   top:80px;
+   left: 140px;   
+}
+}
+@media only screen and (max-width: 400px)
+{
+    .about_image p
+{
+   position: absolute;
+   top:50px;
+   left: 80px;   
+}
+}
+.about_video_content
+{
+    margin: 40px 0 0 0;
+}
+.about_video_content h3{
+    font-size: 16px;
+    color:#00a3c8;
+}
+.about_video_content h2{
+    color:#004861;
+    font-size: 35px;
+    margin:30px 0;
+}
+.about_video_content ul li{
+    list-style-type: disc;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+
+
+                                                          

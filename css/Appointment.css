@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+.form_detail h2
+{
+    color:#004861;
+    font-weight: 600;
+}
+.form_detail p{
+    font-size: 15px;
+}
+
+.form_data input,.form_data select,.form_data textarea
+{
+    width: 90%;
+    padding: 10px 5px;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5px;    
+}
+.form_data input:hover,.form_data textarea:hover{
+    border-color: #00a3c8;
+}
+.form_data .primary{
+    border: none;
+}

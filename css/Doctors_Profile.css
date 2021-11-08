@@ -1,0 +1,75 @@
+.Doctor_Profile_container{
+   margin: 100px 0;
+}
+.Doctor_table{
+    width: 100%;
+    margin: 40px 0;
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.Doctor_table tr{
+   border: 1px solid black;
+}
+.Doctor_table tr:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.Doctor_table tr td{
+    text-align: start;
+    border: 1px solid black;
+}
+.Doctor_table tr td ul li{
+    list-style-type: none;
+}
+.Doctor_table tr td ul li span{
+    color:#00a3c8 !important;
+    font-weight: 800;
+}
+.Doctor_image h3{
+    color: black;    
+}
+.Doctor_image h3 i{
+    font-size: 30px;
+    color:#00a3c8;
+    margin-right: 20px;
+}
+.Doctor_image .doctor_gmail{
+    color:#00a3c8 !important;
+    cursor: pointer;
+    margin:0px 0 40px 0;
+    font-size: 20px;
+}
+.Doctor_image a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 19px;
+    background-color:#00a3c8;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.Doctor_content{
+    margin:30px 0;
+}
+.Doctor_content h2{
+    color:#00a3c8;
+    margin: 30px 0;
+}
+.Doctor_content h3{
+    color:#00a3c8;
+    font-size: 17px;
+}
+.Doctor_content ul li span{
+    color:#00a3c8 !important;
+    font-weight: 800;
+}
+.Doctor_content p,.Doctor_content ul li{
+    color: rgba(0, 0, 0, 0.76);
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.doctor_certificate{
+    margin: 30px 0;
+}
+.doctor_certificate h3{
+    color:#00a3c8;
+    font-size: 22px;
+}

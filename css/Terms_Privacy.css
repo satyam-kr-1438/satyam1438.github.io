@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*
+{
+    box-sizing: border-box;
+}
+.terms_section{
+    padding: 10px 30px;
+}
+.terms_section .last_updated
+{
+    color: rgba(0, 0, 0, 0.473) !important;
+    font-size: 16px;
+}
+.terms_section h2,.terms_number h2{
+    color:#004861;
+    font-size: 19px;
+    font-weight: 600;
+}
+.terms_section p,.terms_section ul li,.terms_number p,.terms_number ul li{
+    color: rgba(0, 0, 0, 0.589);
+}
+.terms_section ul li,.terms_number ul li
+{
+    list-style-type: disc;
+}
+.terms_number p span{
+    color:#004861 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+.terms_number p a{
+    color:#00a3c8!important;
+    font-weight: 400;
+    text-decoration: none;
+}

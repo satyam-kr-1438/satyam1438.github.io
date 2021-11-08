@@ -1,0 +1,629 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Zen Antique', serif;
+}
+*
+{
+    box-sizing: border-box;
+    font-family: 'Zen Antique', serif;
+}
+                                                                     /* HEADER START  */
+    .header_logo
+    {
+        width: 200px;
+    }
+    .header_logo img{
+        width: 100%;
+    }
+    .appointment_button a
+    {
+        background-color: #00a3c8;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor:pointer;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+                                                                                  /* HEADER END  */
+
+                                                                                   /* NAV START  */
+  #menu {
+    transition: all 0.3s ease;
+    position: fixed;
+    width: 0%;
+    top: 0;
+    /* left: -200px; */
+    right: -200px;
+    background: rgb(0, 0, 0);
+    height: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 10px black;
+    }
+    #menu a {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    }
+    #menu a:hover {
+    background: rgb(50, 50, 50);
+    }
+    #menu-toggle {
+    position: fixed;
+    top: 20px;
+    /* left: 0; */
+    right: -100px;
+    background: #00a3c8;
+    z-index: 1000;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.3s ease;
+    }
+    #menu-toggle:hover {
+    cursor: pointer;
+    }
+    #menu.open {
+    /* left: 0; */
+    right: 0px;
+    width: 240px;
+    display: block;
+    }
+    #menu-toggle.open {
+    /* left: 200px; */
+    right: 240px !important;
+    }
+    ul li{
+        list-style-type: none;
+    }
+
+                                                                                          /* NAV END */   
+
+
+                                                                                      /* Heading start  */
+
+.heading_bg
+{
+    background-image: url(../images/breadcrumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin-bottom: 50px;
+}
+.heading_bg_content
+{
+    padding: 50px 0;
+}
+.heading_bg_content ul{
+    display: flex;
+}
+.heading_bg_content ul li{
+    list-style-type: none;
+    margin:0 10px;
+    font-size: 18px;
+}
+.heading_bg_content ul li a{
+    color:black;
+    font-size: 18px;
+}
+.heading_bg_content ul li a:hover{
+    color:#00a3c8;
+}
+.heading_bg_content h2{
+    color:#004861;
+    margin:0 40px;
+}
+
+                                                                               /* HEADING END  */
+
+                                                                               /* SIGNATURE SECTION  COMMON  START*/
+.W_W_A_container{
+ margin: 40px 0;
+}
+.W_W_A_section1{
+ padding: 10px 10px;
+}
+.W_W_A_content h3{
+ color:#00a3c8;
+ font-size: 18px;
+}
+.W_W_A_content h2{
+ color:#004861;
+ margin: 20px 0;
+}
+.W_W_A_content p,.W_W_A_ul ul li{
+ font-size: 19px;
+ color: rgba(0, 0, 0, 0.548);
+ margin: 20px 0;
+}
+.W_W_A_content p{
+ margin:20px 0;
+}
+.W_W_A_ul ul li span{
+ color:#00a3c8 !important;
+ font-weight: 600;
+}
+.W_W_A_section3{
+    margin: 30px 0;
+}
+.W_W_A_signature{
+    padding: 15px 15px;
+    margin: 30px 0;
+    width: 250px;
+}
+                                                                               /* SIGNATURE SECTION  COMMON  START*/
+
+
+
+
+                                                                           /* CLINIC COMMON START */
+.primary
+{
+    background-color: #00a3c8;
+    border: none;
+    color: white;
+}
+.owner_section_header{
+    padding: 10px 20px;
+}
+.owner_section{
+     display:flex;
+}
+     
+.owner_section .owner_content{
+     margin:0 0 0 50px;
+    }
+    .owner_section .owner_content h3
+    {
+         color:#00a3c8;
+    }
+    .owner_section .owner_content p{
+        margin:3px 0;
+    }
+.owner_section .owner{
+    width: 110px;
+}
+.owner_section_header .h3
+{
+    color:#004861;
+}
+.owner_section_header button
+{
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.working_time table{
+  margin: 20px 0;
+  padding: 10px 0px;  
+  width: 100%;
+}
+.working_time table tr{
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+.working_time table tr .td_time{
+    font-weight: 600;
+}
+ .working_time h3
+{
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+.working_time
+{
+    width: 90%;
+    margin: 30px 0 0 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.doctor_timetable
+{
+    border:2px solid rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+.doctor_timetable a{
+    text-decoration: none;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px ;
+}
+
+                                                                                         /* CLINIC COMMON END  */
+
+                                                                                          /* PATIENT SAYS START (COMMON SECTION) */
+ section{
+    background-color: rgba(128, 128, 128, 0.11);
+    padding: 50px 0;
+    box-sizing: border-box;
+    
+}
+.service_section2_heading
+{
+    text-align: center!important;
+    margin:50px 0;
+}
+.service_section2_heading h2
+{
+   color:#004861;
+}
+.service_section2_heading p{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    margin:0 auto;
+}
+.item{
+    text-align: center;
+   width: 350px !important;
+   min-height: 500px !important;
+}
+@media only screen and (max-width: 799px)
+{
+    .item{
+       width: 90% !important;         
+    }
+}
+.item_card
+{
+    width: 90%;
+    height: 80%;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    margin: auto auto;
+    border:2px solid rgba(128, 128, 128, 0.63);
+    border-radius: 10px;
+}
+.item_card .item_img
+{
+    width: 85px;
+    height: 85px;
+    margin:30px auto;
+}
+.item_card .item_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.h3_bg
+{
+    background-image: url(../images/quote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.h3_bg h3{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.753);
+}
+.item_name
+{
+    font-weight: 700;
+} 
+                                                                                                                                                                            /* PATIENT SAYS START (COMMON SECTION) */
+                                                                                      /* PATIENT SAYS END(COMMON SECTION) */
+
+                                                                                      /* RATING SECTION COMMON  */
+     .Rating_Section{
+        background-color: #00a3c8;
+        margin: 50px 0;
+        padding: 70px 0;
+    }
+    .Rating_Item{
+           text-align: center;
+    }
+    .Rating_Item .rating_heart
+    {
+        font-size: 80px;
+    }
+    .Rating_Item .Rating_Timer
+    {
+        font-weight: 800;
+        font-size: 60px;
+    }
+    .Rating_Icon{
+        margin:40px 0;
+    }
+
+   
+    .Rating_Item p,.Rating_Item h3{
+        color: white;
+    }
+    .Rating_Item h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+
+                                                                              /* RATING SECTION END  */
+
+                                                                               /* MEDICAL SPECIALIST START (common section)  */
+.MEDICAL_CONTAINER{
+    margin: 30px 0;
+    padding: 40px 0;
+}
+.MEDICAL_SPECIALIST_HEADING{
+    text-align: center;
+}
+.MEDICAL_SPECIALIST_HEADING h2{
+    color:#004861;
+    margin:20px 0;
+}
+.MEDICAL_SPECIALIST_HEADING p{
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
+.MEDICAL_SPECIALIST_DOCTOR{
+    padding: 10px 10px;
+}
+.MEDICAL_DOCTOR1{
+    position:relative;
+}
+.MEDICAL_DOCTOR1:hover .doctor_overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #00a3c8ad;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.doctor_overlay a{
+    display:none;
+}
+.MEDICAL_DOCTOR1:hover img{
+     transform:scale(0.8);
+     transition: 1s;
+}
+.MEDICAL_DOCTOR1:hover .doctor_overlay a{
+    display:block;
+    color:white;
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.7s;
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+.MEDICAL_DOCTOR1:hover .doctor_overlay a:hover{
+    background-color: black;
+}
+.MEDICAL_SPECIALIST_DOCTOR h2{
+    color:#004861;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
+.MEDICAL_SPECIALIST_DOCTOR h3{
+    color:#00a3c8;
+    font-size: 18px;
+}
+.MEDICAL_SPECIALIST_DOCTOR p{
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 16px;
+}
+.meet_all_doctors{
+    text-align: center;
+    margin: 20px 0;
+}
+.meet_all_doctors a{
+   text-decoration: none;
+   color: white !important;
+   background-color:#00a3c8;
+   font-size: 20px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   transition: 1s;
+}
+.meet_all_doctors a:hover{
+    background-color: black;
+}
+
+
+                                                                      /* MEDICAL SPECIALIST END (common section)  */
+
+
+
+
+                                                                                      /* certified and experienced doctor common START */
+.section3_heading 
+{
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.section3_heading h2
+{
+    color: #004861;
+}
+.section3_heading p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.596);
+    margin: 15px auto;
+}
+.section3_img
+{
+    width: 100%;
+    height: auto;
+}
+.section3_img img 
+{
+    width:100%;
+    height: auto;
+ }
+                                                                                           /* certified and experienced doctor common END*/
+                                                                                   /* <!-- W.W.A. SECTION6 sTART (common section)  --> */
+.WWA_section6_container{
+    margin: 40px 0;
+    padding: 30px 0;
+}
+.WWA_section6 {
+    display: flex;
+    margin: 20px 0 70px 0;;
+}
+.WWA_section6 .WWA_section6_head_btn p{
+    color: rgba(0, 0, 0, 0.671);
+    border: none;
+    font-size: 22px;
+    padding: 20px 20px;
+    text-align: center;
+    cursor:pointer;
+}
+.WWA_section6_head_btn p:hover{
+    background-color: rgba(128, 128, 128, 0.315);
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    border-radius: 10px;
+}
+.WWA_section6_head_btn{
+    margin: 20px 0;
+}
+.WWA_section6_img{
+    padding: 10px 18px;
+}
+.WWA_section6_img img{
+    width: 100%;
+    height: auto;
+}
+.WWA_section6_content_container{
+    margin: 20px 0;
+}
+.WWA_section6_content h2{
+    color: #004861;
+    margin: 20px 0;
+}
+.WWA_section6_content p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 19px;
+}
+.WWA_points p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 15px;
+}
+.WWA_points p span{
+    color: #00a3c8;
+    font-weight: 700;
+}
+.WWA_button{
+    margin: 30px 0;
+}
+.WWA_button a{
+    text-decoration: none;
+    color: white !important;
+    background-color: #00a3c8;
+    font-size: 20px;
+    padding: 10px 12px;
+    border: 1px solid #00a3c8;
+    border-radius: 10px;
+}
+.ACTIVE{
+    background-color: #00a3c8 !important;
+    color: white !important;
+    border-radius: 10px;
+}
+
+
+                                                                              /* <!-- W.W.A. SECTION6 end  (common section)--> */
+
+                                                                                         /* footer start  */
+    footer{
+        background-image: url(../images/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center;
+        padding: 100px 0;
+        margin-top: 30px;
+    }
+    .part1,.part2,.part3,.part4
+    {
+        text-align: start;
+        padding: 0 20px;
+        margin: 40px 0;
+    }
+
+    .part1 p,.part1 span,.part2 p,.part3 p,.part4 p{
+        color: rgba(255, 255, 255, 0.473);
+    }
+    .part1 span,.part3 p b
+    {
+        color: white!important;
+    }
+    .part1 span a{
+        text-decoration: none;
+        color: white;        
+        font-size: 30px;
+    }
+    .part1 span a:hover{
+        color: blue;
+    }
+  
+
+    .part2 h3,.part3 h3,.part4 h3
+    {
+       font-size: 18px;
+       color: white;
+    }
+    .part4 h2{
+        color:aqua;
+    }
+    .part1 .footer_logo
+    {
+        width: 60%;
+        height: auto;
+    }
+    .part1 .footer_logo img{
+        width: 100%;
+        height: auto;
+    }
+    .part2 a b:hover{
+          color:blue;
+    }
+    .Footer_last h2{
+        color: rgba(255, 255, 255, 0.521);
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    hr{
+        color: white;
+    }
+    
+                                                                                     /* FOOTER END  */
+                                                           /* SCROLL UP  */
+                                                            /* SCROLL UP START  */
+     .scrollUp {
+         position:fixed;
+         bottom:20px;
+         right: 20px;
+         z-index: 1000;
+         display: none;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #00a3c8;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: white !important;
+        font-size: 2.0rem;
+    } 
+   
+    
+                                                                /* SCROLL UP START  */

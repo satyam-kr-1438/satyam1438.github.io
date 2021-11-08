@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+.gallery .gallery_img
+{
+    width: 320px;
+    height: 320px;
+    position: relative;
+    margin:30px;
+}
+ .gallery_img1 
+ {
+     height: 420px !important ;
+ }
+  .gallery .gallery_img img{
+    width: 100%;
+    padding: 10px;
+}  
+.gallery_img:hover .gallery_overlay
+{
+    background-color: rgba(0, 163, 200, 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+} 
+.gallery_img:hover .gallery_overlay .gallery_icon
+{
+    border:2px solid white;
+    position: absolute;
+    top:30px;
+    left:30px;
+    padding: 100px;    
+    transition: 0.5s linear;
+}
+.gallery_img .gallery_overlay .gallery_icon span i
+{
+    opacity:0;
+}
+.gallery_img:hover .gallery_overlay .gallery_icon span i{
+    font-size: 40px;
+    color: white;
+    opacity:1;
+}
+
+
+
